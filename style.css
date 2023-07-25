@@ -1,8 +1,8 @@
 body {
     background-image: url(./icons/background.jpg);
     background-position: center;
-    font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
+    font-family: 'Times New Roman',  Arial, Helvetica, sans-serif;
+    background-color: white;
     margin: 0;
     padding: 0;
 }
@@ -10,18 +10,21 @@ body {
 .container {
     max-width: 800px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 45px;
 }
 
 h1 {
     text-align: center;
-    color: #fff;
+    color: black ;
+    font-size: 45px;
+
 }
 
 .search-container {
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
+    margin-bottom: 55px;
+    
 }
 
 #city-input {
@@ -29,13 +32,13 @@ h1 {
     padding: 5px;
     font-size: 16px;
     margin-right: 10px;
-    border-radius: 10px;
-    border-color: #000000;
+    border-radius: 7px;
+    border-color: #e3dcdc14;
     border-style: solid;
 }
 
 .weather-card {
-    background-color: #fff;
+    background-color: #eddccd9a;
     padding: 20px;
     border-radius: 10px;
     border-style: solid;
@@ -70,10 +73,12 @@ h1 {
     background-color: white;
     overflow: visible;
     cursor: pointer;
+    border-color: #e3dcdc14;
+
 }
 
 #search-button:hover {
-    color: rgb(71, 68, 68);
+    color: rgba(71, 68, 68, 0.97);
     background-color: rgb(189, 185, 185);
     transition: 0.2s;
 }
